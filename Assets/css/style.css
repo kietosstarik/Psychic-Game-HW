@@ -5,15 +5,15 @@ html, body{
         font-size: 22px;
         line-height: 36px;
         font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    background-repeat: no-repeat;
-    background-color: #ac8271;  
-    height: 100%;       
+        background-repeat: no-repeat;
+         background-color: #ac8271;  
+        height: 100%;       
 }
 .wrapper {
-  min-height: 100%;
-  height: auto !important;
-  height: 100%;
-  margin: 0 auto -4em;
+         min-height: 100%;
+        height: auto !important;
+        height: 100%;
+        margin: 0 auto -4em;
 }
 .mainHeader{
         columns: 0 
@@ -29,6 +29,6 @@ html, body{
 }
 
 .footer, .push {
-  height: 4em;
-  text-align: center;
+         height: 4em;
+        text-align: center;
 }
