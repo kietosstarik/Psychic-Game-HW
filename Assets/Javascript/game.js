@@ -2,8 +2,8 @@ var computerChoices = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l
 
 var wins = 0;
 var losses = 0;
-var guesses = 9;
-var guessesLeft = 9;
+var guesses = 5;
+var guessesLeft = 5;
 var guessedLetters = [];
 var letterToGuess = null;
 
@@ -23,8 +23,8 @@ var updateGuessesSoFar = function() {
 };
 
 var reset = function() {
-  totalGuesses = 9;
-  guessesLeft = 9;
+  totalGuesses = 5;
+  guessesLeft = 5;
   guessedLetters = [];
 
   updateLetterToGuess();
